@@ -34,6 +34,13 @@ el.addEventListener("click", (ev) => {
             let brewery =       document.createElement("th");
             let picture =   document.createElement("th");
 
+            style.classList.add("colN");
+            abv.classList.add("colN");
+            ibu.classList.add("colN");
+            brewery.classList.add("colN");
+            //name.classList.add("colN");
+
+
             let nametx =        document.createTextNode("Name");
             let styletx =       document.createTextNode("Style");
             let abvtx =       document.createTextNode("ABV");
@@ -65,6 +72,13 @@ el.addEventListener("click", (ev) => {
                 let ibur = document.createElement("td");
                 let breweryr = document.createElement("td");
                 let picr = document.createElement("td");
+
+                styler.classList.add("colN");
+                abvr.classList.add("colN");
+                ibur.classList.add("colN");
+                breweryr.classList.add("colN");
+                //namer.classList.add("colN");
+
 
                 let picturer = document.createElement("img");
                 picr.append(picturer);
